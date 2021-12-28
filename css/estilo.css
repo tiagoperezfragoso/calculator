@@ -1,0 +1,98 @@
+@font-face{
+ font-family:'digital-clock-font';
+ src: url('digital-7.ttf');
+}
+
+.calc_body {
+	width: 420px;
+	height: 740px;
+	background-color: #A9A9A9;
+	float: left;
+	margin-left: 200px;
+	margin-top: 50px;
+	border-radius: 10px;
+	border-bottom-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+}
+.visor {
+	background-color: #228B22;
+	width: 350px;
+	height: 150px;
+	margin-top: 20px;
+	float: left;
+	margin-left: 28px;
+	border-radius: 10px;
+
+}
+
+.display_visor {
+	
+	font-size: 80px;
+	font-family: 'digital-clock-font';
+	margin-top: 50px;
+	margin-right: -50px;
+	float: right;
+
+}
+
+.date_visor{
+	float: left;
+	font-family: 'digital-clock-font';
+	font-size: 30px;
+	margin-left: 10px;
+}
+
+.time_visor{
+	float: right;
+	font-size: 30px;
+	margin-right: 10px;
+	font-family: 'digital-clock-font';
+}
+
+.numeros_grade {
+	float: left;
+	margin-top: 50px;
+
+}
+
+.numeros_grade tr td{
+	width: 15px;
+	height: 15px;
+	background-color: #696969;
+	padding: 40px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 3px;
+	font-family: Courier, monospace;
+	font-size: 50px;
+	border-width: 2px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+}
+
+
+.numeros_grade tr td p{
+	text-align: center;
+	position: left;
+	margin-top: -15px;
+	margin-left: -5px;
+
+}
+
+.numeros_grade tr td h1{
+	text-align: center;
+	position: left;
+	margin-top: -15px;
+	margin-left: -20px;
+	text-decoration: none;
+	font-size: 50px;
+
+}
+
+.numeros_grade tr td:hover{
+	background-color: #FF8C00;
+}
+
+.tecla_igual {
+	border-bottom-left-radius: 100px;
+}
