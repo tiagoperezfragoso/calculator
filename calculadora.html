@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>Calculadora Java Script</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<style type="text/css"></style>
+		<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
+	</head>
+	<body>
+		<nav>
+		</nav>
+		<session>
+			<form class="calc_body">
+				<div class="visor">
+					<label class="date_visor" type="text" id="data_visor">00/00/0000</label>
+					<label class="time_visor" type="text" id="time_visor">00:00</label>
+					<label class="display_visor" type="text" id="display_visor"></label>
+				</div>
+				<table class="numeros_grade" id="numeros_grade">
+					<tr class="fileira">
+						<td class= "tecla-porcentagem" id="tecla-porcentagem" name="tecla-porcentagem" value="porcentagem"><p>%</p></td>
+						<td class= "tecla-ac" id="tecla-ac" name="tecla-ac" value="ac"><h1>AC</h1></td>
+						<td class= "tecla-ce" id="tecla-ce" name="tecla-ce" value="ce"><h1>CE</h1></td>
+					</tr>
+					<tr class="fileira">
+						<td class= "tecla-1" id="tecla-1" name="tecla-1" value="1"><p>1</p></td>
+						<td class= "tecla-2" id="tecla-2" name="tecla-2" value="2"><p>2</p></td>
+						<td class= "tecla-3" id="tecla-3" name="tecla-3" value="3"><p>3</p></td>
+						<td class= "tecla-divisao" id="tecla-divisao" name="tecla-divisao" value="/"><p>/</p></td>
+					</tr>
+					<tr>
+						<td class= "tecla-4" id="tecla-4" name="tecla-4" value="4"><p>4</p></td>
+						<td class= "tecla-5" id="tecla-5" name="tecla-5" value="5"><p>5</p></td>
+						<td class= "tecla-6" id="tecla-6" name="tecla-6" value="6"><p>6</p></td>
+						<td class= "tecla-multiplicacao" id="tecla-multiplicacao" name="tecla-multiplicacao" value="tecla-multiplicacao"><p>X</p></td>
+					</tr>
+					<tr>
+						<td class= "tecla-7" id="tecla-7" name="tecla-7" value="7"><p>7</p></td>
+						<td class= "tecla-8" id="tecla-8" name="tecla-8" value="8"><p>8</p></td>
+						<td class= "tecla-9" id="tecla-9" name="tecla-9" value="9"><p>9</p></td>
+						<td class="tecla-soma" name="tecla-soma" value="tecla-soma"><p>+</p></td>
+					</tr>
+					<tr>
+						<td class="tecla_igual"id="tecla_igual" name="tecla_igual" value="="><p>=</p></td>
+						<td class= "tecla-0" id="tecla-0" name="tecla-0" value="0"><p>0</p></td>
+						<td class= "tecla-subtracao" id="tecla-subtracao" name="tecla-subtracao" value="tecla-subtracao"><p>-</p></td>
+					</tr>
+					
+				</table>
+			</form>
+		</session>
+		<script  src="controller/CalcController.js"></script>
+		<script  src="calculator.js"></script>
+	</body>
+</html>
