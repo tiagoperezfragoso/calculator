@@ -9,7 +9,6 @@
 	</head>
 	<body>
 		<nav>
-			<p>Hello</p>
 		</nav>
 		<session>
 			<form class="calc_body">
@@ -17,12 +16,14 @@
 					<label class="date_visor" type="text" id="data_visor">00/00/0000</label>
 					<label class="time_visor" type="text" id="time_visor">00:00</label>
 					<label class="display_visor" type="text" id="display_visor"></label>
+					<label class="display_cpfvisor" type="text" id="display_cpfvisor"></label>
 				</div>
 				<table class="numeros_grade" id="numeros_grade">
 					<tr class="fileira">
 						<td class= "tecla-porcentagem" id="tecla-porcentagem" name="tecla-porcentagem" value="porcentagem"><p>%</p></td>
 						<td class= "tecla-ac" id="tecla-ac" name="tecla-ac" value="ac"><h1>AC</h1></td>
 						<td class= "tecla-ce" id="tecla-ce" name="tecla-ce" value="ce"><h1>CE</h1></td>
+						<td class= "tecla-cpf" id="tecla-cpf" name="tecla-cpf" value="cpf"><h1>CPF</h1></td>
 					</tr>
 					<tr class="fileira">
 						<td class= "tecla-1" id="tecla-1" name="tecla-1" value="1"><p>1</p></td>
@@ -43,15 +44,17 @@
 						<td class="tecla-soma" name="tecla-soma" value="tecla-soma"><p>+</p></td>
 					</tr>
 					<tr>
-						<td class="tecla_igual"id="tecla_igual" name="tecla_igual" value="="><p>=</p></td>
+						<td class="tecla-igual"id="tecla-igual" name="tecla-igual" value="="><p>=</p></td>
 						<td class= "tecla-0" id="tecla-0" name="tecla-0" value="0"><p>0</p></td>
 						<td class= "tecla-subtracao" id="tecla-subtracao" name="tecla-subtracao" value="tecla-subtracao"><p>-</p></td>
+						<td class= "tecla-ponto" id="tecla-ponto" name="tecla-ponto" value="tecla-ponto"><p>.</p></td>
 					</tr>
 					
 				</table>
 			</form>
 		</session>
 		<script  src="controller/CalcController.js"></script>
+		<script  src="controller/cpfValidation.js"></script>
 		<script  src="calculator.js"></script>
 	</body>
 </html>
